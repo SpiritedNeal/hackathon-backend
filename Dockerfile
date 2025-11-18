@@ -23,4 +23,4 @@ COPY . .
 
 # Expose port and run uvicorn using the correct module name
 ENV PORT 8080
-CMD ["python", "-m", "uvicorn", "Quadcore:app", "--host", "0.0.0.0", "--port", "8080"]
+CMD ["python", "-m", "uvicorn", "Quadcode:app", "--host", "0.0.0.0", "--port", "8080"]
